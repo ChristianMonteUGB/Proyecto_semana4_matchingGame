@@ -73,39 +73,21 @@ namespace Proyecto_semana4_matchingGame
                 secondClicked = clickedLabel;
                 secondClicked.ForeColor = Color.Black;
 
-               
+                CheckForWinner();
+                if (firstClicked.Text == secondClicked.Text)
+                {
+                    firstClicked = null;
+                    secondClicked = null;
+                    return;
+                }
+
                 timer1.Start();
             }
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            if (timer1.Enabled == true)
-                return;
-
-            Label clickedLabel = sender as Label;
-
-            if (clickedLabel != null)
-            {
-               
-                if (clickedLabel.ForeColor == Color.Black)
-                    return;
-
-               
-                if (firstClicked == null)
-                {
-                    firstClicked = clickedLabel;
-                    firstClicked.ForeColor = Color.Black;
-                    return;
-                }
-
-               
-                secondClicked = clickedLabel;
-                secondClicked.ForeColor = Color.Black;
-
-             
-                timer1.Start();
-            }
+            
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -133,7 +115,16 @@ namespace Proyecto_semana4_matchingGame
                 secondClicked = clickedLabel;
                 secondClicked.ForeColor = Color.Black;
 
-               
+                CheckForWinner();
+                if (firstClicked.Text == secondClicked.Text)
+                {
+                    firstClicked = null;
+                    secondClicked = null;
+                    return;
+                }
+
+
+
                 timer1.Start();
             }
         }
@@ -163,7 +154,15 @@ namespace Proyecto_semana4_matchingGame
                 secondClicked = clickedLabel;
                 secondClicked.ForeColor = Color.Black;
 
-               
+                CheckForWinner();
+                if (firstClicked.Text == secondClicked.Text)
+                {
+                    firstClicked = null;
+                    secondClicked = null;
+                    return;
+                }
+
+
                 timer1.Start();
             }
         }
@@ -193,7 +192,15 @@ namespace Proyecto_semana4_matchingGame
                 secondClicked = clickedLabel;
                 secondClicked.ForeColor = Color.Black;
 
-              
+                CheckForWinner();
+                if (firstClicked.Text == secondClicked.Text)
+                {
+                    firstClicked = null;
+                    secondClicked = null;
+                    return;
+                }
+
+
                 timer1.Start();
             }
         }
@@ -223,7 +230,15 @@ namespace Proyecto_semana4_matchingGame
                 secondClicked = clickedLabel;
                 secondClicked.ForeColor = Color.Black;
 
-             
+                CheckForWinner();
+                if (firstClicked.Text == secondClicked.Text)
+                {
+                    firstClicked = null;
+                    secondClicked = null;
+                    return;
+                }
+
+
                 timer1.Start();
             }
         }
@@ -253,7 +268,15 @@ namespace Proyecto_semana4_matchingGame
                 secondClicked = clickedLabel;
                 secondClicked.ForeColor = Color.Black;
 
-              
+                CheckForWinner();
+                if (firstClicked.Text == secondClicked.Text)
+                {
+                    firstClicked = null;
+                    secondClicked = null;
+                    return;
+                }
+
+
                 timer1.Start();
             }
         }
@@ -283,7 +306,14 @@ namespace Proyecto_semana4_matchingGame
                 secondClicked = clickedLabel;
                 secondClicked.ForeColor = Color.Black;
 
-             
+                CheckForWinner();
+                if (firstClicked.Text == secondClicked.Text)
+                {
+                    firstClicked = null;
+                    secondClicked = null;
+                    return;
+                }
+
                 timer1.Start();
             }
         }
@@ -313,7 +343,14 @@ namespace Proyecto_semana4_matchingGame
                 secondClicked = clickedLabel;
                 secondClicked.ForeColor = Color.Black;
 
-              
+                CheckForWinner();
+                if (firstClicked.Text == secondClicked.Text)
+                {
+                    firstClicked = null;
+                    secondClicked = null;
+                    return;
+                }
+
                 timer1.Start();
             }
         }
@@ -343,7 +380,14 @@ namespace Proyecto_semana4_matchingGame
                 secondClicked = clickedLabel;
                 secondClicked.ForeColor = Color.Black;
 
-               
+                CheckForWinner();
+                if (firstClicked.Text == secondClicked.Text)
+                {
+                    firstClicked = null;
+                    secondClicked = null;
+                    return;
+                }
+
                 timer1.Start();
             }
         }
@@ -373,7 +417,14 @@ namespace Proyecto_semana4_matchingGame
                 secondClicked = clickedLabel;
                 secondClicked.ForeColor = Color.Black;
 
-              
+                CheckForWinner();
+                if (firstClicked.Text == secondClicked.Text)
+                {
+                    firstClicked = null;
+                    secondClicked = null;
+                    return;
+                }
+
                 timer1.Start();
             }
         }
@@ -403,7 +454,14 @@ namespace Proyecto_semana4_matchingGame
                 secondClicked = clickedLabel;
                 secondClicked.ForeColor = Color.Black;
 
-             
+                CheckForWinner();
+                if (firstClicked.Text == secondClicked.Text)
+                {
+                    firstClicked = null;
+                    secondClicked = null;
+                    return;
+                }
+
                 timer1.Start();
             }
         }
@@ -433,7 +491,14 @@ namespace Proyecto_semana4_matchingGame
                 secondClicked = clickedLabel;
                 secondClicked.ForeColor = Color.Black;
 
-               
+                CheckForWinner();
+                if (firstClicked.Text == secondClicked.Text)
+                {
+                    firstClicked = null;
+                    secondClicked = null;
+                    return;
+                }
+
                 timer1.Start();
             }
         }
@@ -463,7 +528,14 @@ namespace Proyecto_semana4_matchingGame
                 secondClicked = clickedLabel;
                 secondClicked.ForeColor = Color.Black;
 
-               
+                CheckForWinner();
+                if (firstClicked.Text == secondClicked.Text)
+                {
+                    firstClicked = null;
+                    secondClicked = null;
+                    return;
+                }
+
                 timer1.Start();
             }
         }
@@ -493,7 +565,14 @@ namespace Proyecto_semana4_matchingGame
                 secondClicked = clickedLabel;
                 secondClicked.ForeColor = Color.Black;
 
-                
+                CheckForWinner();
+                if (firstClicked.Text == secondClicked.Text)
+                {
+                    firstClicked = null;
+                    secondClicked = null;
+                    return;
+                }
+
                 timer1.Start();
             }
         }
@@ -523,7 +602,14 @@ namespace Proyecto_semana4_matchingGame
                 secondClicked = clickedLabel;
                 secondClicked.ForeColor = Color.Black;
 
-               
+                CheckForWinner();
+                if (firstClicked.Text == secondClicked.Text)
+                {
+                    firstClicked = null;
+                    secondClicked = null;
+                    return;
+                }
+
                 timer1.Start();
             }
         }
@@ -553,7 +639,14 @@ namespace Proyecto_semana4_matchingGame
                 secondClicked = clickedLabel;
                 secondClicked.ForeColor = Color.Black;
 
-                
+                CheckForWinner();
+                if (firstClicked.Text == secondClicked.Text)
+                {
+                    firstClicked = null;
+                    secondClicked = null;
+                    return;
+                }
+
                 timer1.Start();
             }
         }
@@ -569,6 +662,27 @@ namespace Proyecto_semana4_matchingGame
             
             firstClicked = null;
             secondClicked = null;
+        }
+
+
+    private void CheckForWinner()
+        {
+            foreach (Control control in tableLayoutPanel1.Controls)
+            {
+                Label iconLabel = control as Label;
+
+                if (iconLabel != null)
+                {
+                    if (iconLabel.ForeColor == iconLabel.BackColor)
+                        return;
+                }
+            }
+
+            // If the loop didn’t return, it didn't find
+            // any unmatched icons
+            // That means the user won. Show a message and close the form
+            MessageBox.Show("You matched all the icons!", "Congratulations");
+            Close();
         }
     }
 }
