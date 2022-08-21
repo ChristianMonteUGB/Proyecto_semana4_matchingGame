@@ -678,9 +678,6 @@ namespace Proyecto_semana4_matchingGame
                 }
             }
 
-            // If the loop didn’t return, it didn't find
-            // any unmatched icons
-            // That means the user won. Show a message and close the form
             MessageBox.Show("You matched all the icons!", "Congratulations");
             Close();
         }
